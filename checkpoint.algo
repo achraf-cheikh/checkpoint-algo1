@@ -4,7 +4,7 @@ VAR
     NW : INTEGER
     NWF : INTEGER
     NC : INTEGER
-    arr : ARRAY_OF CHAR['a','i','e','o','u','A','I','E','O','U'];
+    arr : ARRAY_OF CHAR['a','i','e','o','u','y','A','I','E','O','U','Y'];
     NV : INTEGER
     i : INTEGER
 BEGIN
