@@ -1,0 +1,41 @@
+ALGORITHM checkpoint algo
+VAR
+    str : STRING
+    NW : INTEGER
+    NWF : INTEGER
+    NC : INTEGER
+    arr : ARRAY_OF CHAR['a','i','e','o','u','A','I','E','O','U'];
+    NV : INTEGER
+    i : INTEGER
+BEGIN
+
+// The number of words in the sentence
+read(str)
+NW := 0
+FOR i FROM 0 TO str.length-1 STEP step 1 DO
+    IF (str[i] = ' ') THEN
+        NW= NW + 1
+    END_IF
+  NWF= NW + 1
+  write('The number of words in the sentence',NWF)
+END_FOR
+
+// The length of the sentence
+read(str)
+NC := 0
+FOR i FROM 0 TO str.length-1 STEP step 1 DO
+NC := str.length
+ write('The length of the sentence:',NC)
+END_FOR
+
+// The number of vowels in the sentence.
+read(str)
+NV := 0
+FOR i FROM 0 TO str.length-1 STEP step 1 DO
+IF (str[i] in arr)) THEN
+    NV = NV+1
+    write('The number of vowels in the sentence:',NV)
+END_IF
+
+
+END
